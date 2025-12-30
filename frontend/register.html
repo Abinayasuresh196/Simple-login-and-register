@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Register - Secure Auth App</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h2>Register</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+
+    <div class="btn-box">
+        <button onclick="registerUser()" class="btn register-btn">Register</button>
+    </div>
+
+    <p id="msg"></p>
+    <p class="toggle-link">
+        Already have an account? <a href="login.html">Login here</a>
+    </p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

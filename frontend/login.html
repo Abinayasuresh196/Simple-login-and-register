@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Login - Secure Auth App</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+
+    <div class="btn-box">
+        <button onclick="loginUser()" class="btn login-btn">Login</button>
+    </div>
+
+    <p id="msg"></p>
+    <p class="toggle-link">
+        Don't have an account? <a href="register.html">Register here</a>
+    </p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
